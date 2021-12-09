@@ -1,0 +1,266 @@
+/* css for group 11 a3 */
+
+/* Colours - Beige - #F5EEC2 Green - #73A24E Blue - #39395f*/
+
+/*Tim's Part*/
+.logo{
+    max-width: 40px;
+    width: 100%;
+    }
+
+  .navbg{
+    background-color: #416a59;
+    }
+  
+  a:link, a:visited{
+    color: #f5eec2
+    }
+  
+  a:hover, a:active{
+    color: #73a24e
+    }
+
+  .p3bg{
+    background-color: #f5eec2;
+  }
+
+  .project3{
+  border-radius: 15px;  
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 400px;
+  object-fit: contain;  
+}
+
+  .sectionmargin{
+  margin-top: 100px;
+}
+  .p3font{
+    font-family: "Volkhov";
+  }
+
+/*Vince's Part*/
+/* FOR INDEX */
+#bg {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../images/background5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#transparentbg{
+  height: 100%;
+  /* background-color: rgba(245, 238, 194, 0.4); */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#landingcont{
+  padding-top: 20vh;
+  height: 100vh;
+  width: 65%;
+  /* background-color: rgba(245, 238, 194, 1); */
+}
+
+/* #companylogo{
+  height: 40%;
+} */
+
+#maintext{
+  font-size: 10vh;
+  /* letter-spacing: 0.1em; */
+  color:#73a24e;
+  font-family: "Volkhov";
+  margin-bottom:4vh;
+}
+
+#landingdivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #416a59;
+}
+
+#slogan{
+  font-size: 5vh;
+  font-family: "Volkhov";
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color:#F5EEC2;
+}
+
+#supplementary{
+  font-size: 2.5vh;
+  font-family: "Lato";
+  color:#F5EEC2;
+  padding-bottom: 10vh;
+}
+
+#smlink1 {
+  font-size: 2.5vh;
+  width: 4vw;
+}
+
+#smlink2 {
+  font-size: 2.5vh;
+  width: 4vw;
+}
+
+#smlink3 {
+  font-size: 2.5vh;
+  width: 4vw;
+}
+
+
+.parahead {
+  font-family: "Volkhov";
+}
+
+.para4{
+  font-family: "Lato";
+}
+
+/* Colin's Part */
+
+.page-section {
+  padding: 5rem 0;
+}
+
+.ServiceText{
+  font-family: "Lato";
+  text-align: center;
+}
+
+#services, #contact{
+  background-color: #f5eec2;
+}
+.sIcon{
+  color: #416a59;
+}
+
+.cIcon{
+  color: #416a59;
+}
+.sTitle{
+  color: #416a59;
+  font-family: "Volkhov";
+  text-align: center;
+}
+.cTitle{
+  color: #416a59;
+  font-family: "Volkhov";
+  text-align: center;
+}
+.sDivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #416a59;
+}
+.cDivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #416a59;
+}
+.tDivider{
+  max-width: 20vw;
+  border-width: 0.2rem;
+  border-color: #f5eec2;
+}
+.project1img{
+  border-radius: 15px;  
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 400px;
+  object-fit: contain;  
+}
+#project1page{
+  background-color: #f5eec2;
+}
+
+#footer{
+  background-color: #416a59;
+  padding:0;
+}
+
+/* Kendyll's Part */
+
+/* object-fit contain CSS for .headshot and .project2img inspired by w3schools: 
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_object-fit_contain */
+
+/* index.html css for "Our Team" section */
+
+.headshot {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.teamtitlefont {
+  font-family: "Volkhov";
+  color:#f5eec2
+}
+
+.teamfont {
+  font-family: "Lato";
+  color:#f5eec2;
+}
+
+.footfont {
+  font-family: "Lato";
+  color:#f5eec2;
+  font-size: 1.5vh;
+}
+
+.footfont2 {
+  font-family: "Lato";
+  color:#f5eec2;
+  font-size: 2vh;
+}
+
+.btn {
+  color:#24243b;
+  background-color:#565694;
+  border-color:#24243b;
+}
+.btn:hover {
+  color:#24243b;
+  background-color:#6666aa;
+  border-color:#24243b;
+}
+
+.teambackground {
+  background-color: #39395f;
+}
+
+/* project2.html css for LiDAR and Bathymetry project page */
+
+.project2img {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.projecttitlefont {
+  font-family: "Volkhov";
+  font-weight: bold;
+  color: #39395f;
+  text-align: center;
+}
+
+.projectfont {
+  font-family: "Lato";
+  color: #39395f;
+}
+
+.project2background{
+  background-color: #f5eec2;
+}
+
+.margin {
+  margin-top: 100px;
+}
